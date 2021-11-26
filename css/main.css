@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+html,
+body {
+  font-family: "Lobster", cursive;
+  height: 100vh;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(#5da, #fff);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+input {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  text-align: center;
+}
+
+button {
+  background-color: darkcyan;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 4px 10px;
+  margin: 0 4px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0;
+}
+
+#emoji-container {
+  margin: 40px;
+}
+
+span {
+  display: inline-block;
+  font-size: 60px;
+  margin: 30px;
+}
+
+#push-btn,
+#unshift-btn {
+  background-color: #80d87f;
+}
+
+#shift-btn,
+#pop-btn {
+  background-color: #ffcb5f;
+}
